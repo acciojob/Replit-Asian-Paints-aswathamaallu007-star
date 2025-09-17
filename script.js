@@ -1,6 +1,6 @@
 //your JS code here. If required.
 const forms = document.getElementById('forms')
-const boxes = document.querySelectorAll('.grid-items')
+const boxes = document.querySelectorAll('.grid-item')
 forms.addEventListener('submit',applycolor)
 function applycolor(e){
 	e.preventDefault()
